@@ -1,0 +1,10 @@
+# Virtualenv
+env/
+
+# OS OpenData files
+Data/
+Doc/
+readme.txt
+
+# Generated output
+index.html
