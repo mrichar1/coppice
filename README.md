@@ -20,3 +20,7 @@ env/bin/python make.py
 ```
 
 5. Open `index.html` in a browser to view the map.
+
+## Changes
+
+Issues or PRs welcome, especially ones to update the `names` list in `make.py`
