@@ -44,7 +44,7 @@ def makemap(woods):
         print(wood)
         folium.Marker([wood[3], wood[2]],
             tooltip=wood[0],
-            popup=f'<a href="https://www.geograph.org.uk/near/{wood[2]},{wood[3]}" target="geog">Geograph</a><br><a href="https://www.google.com/maps?q={wood[2]},{wood[3]}" target="goog">Google Maps</a>'
+            popup=f'<a href="https://www.geograph.org.uk/near/{wood[3]},{wood[2]}" target="geog">Geograph</a><br><a href="https://www.google.com/maps?q={wood[3]},{wood[2]}" target="goog">Google Maps</a>'
             ).add_to(mapp)
     mapp.save("index.html")
 
