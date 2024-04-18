@@ -9,29 +9,36 @@ csv_files = glob.glob('Data/*.csv')
 get = itemgetter(2,7,8,9)
 
 names = [
+    # English
     "brush",
+    "cops",
+    "coppic",
+    "charcoal",
+    "hasl",
+    "haesl",
+    "haz",
+    "hiz",
+    "iron",
+    "nut",
+    "spring",
+    # Scottish Gaelic
     "calbh",
     "calltain",
     "challtain",
     "caomhan",
     "caomhain",
-    "charcoal",
     "cnò",
     "cnomh",
     "collainn",
-    "cops",
-    "coppic",
-    "hasl",
-    "haesl",
-    "haz",
-    "hiz",
     "garan",
     "garain",
-    "iron",
-    "nut",
     "preasarlach",
     "preasarlaich",
-    "spring",
+    # Welsh
+    "cnau",
+    "cneu",
+    "coedlan",
+    "prysg",
 ]
 
 # Transform from OS grid ref to WGS84 lat/long
