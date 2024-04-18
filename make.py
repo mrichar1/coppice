@@ -14,6 +14,7 @@ names = [
     "cops",
     "coppic",
     "charcoal",
+    "collier",
     "hasl",
     "haesl",
     "haz",
