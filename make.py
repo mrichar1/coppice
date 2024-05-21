@@ -46,7 +46,7 @@ names = [
 transformer = Transformer.from_crs("epsg:27700", "WGS84")
 
 def makemap(woods):
-    mapp = folium.Map(location=[54.2, -3.7], zoom_start=6)
+    mapp = folium.Map(location=[53.5, -3.4], zoom_start=8)
 
     for wood in woods:
         print(wood)
